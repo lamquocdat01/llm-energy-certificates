@@ -1,0 +1,241 @@
+{
+ "generated": "2026-10-16",
+ "c_ref": 1000.0,
+ "main_regime": "meas",
+ "notes": [
+  "a_ref = ML.ENERGY Leaderboard v3 per-output-token GPU energy (prefill folded in) at the stated max_num_seqs.",
+  "alpha = r_pre * a with r_pre from ML.ENERGY Table 4 (derived ratio of dataset means).",
+  "beta = 0: Table 4 prefill J/in-tok flat between in-mean 512 and 4096 (8B: 0.0168 vs 0.0167; 70B: 0.190 vs 0.182).",
+  "Regime 'meas' (MAIN) = TokenPowerBench Fig.3(b) slope; 'arch' = KV-traffic assumption; 't4fit' = ML.ENERGY Table 4 slope (8B rows; low R2 -> stress regime).",
+  "Conclusions of Thm 1-3 hold for any a, b > 0; regimes only change magnitudes."
+ ],
+ "t4_fit_8b": {
+  "kappa": 0.0010960341043728303,
+  "slope": 4.126116071428572e-05,
+  "intercept": 0.03764587301587305,
+  "r2": 0.7503198218735498,
+  "n": 9,
+  "points": [
+   [
+    768.0,
+    0.05686
+   ],
+   [
+    2560.0,
+    0.16043
+   ],
+   [
+    4352.0,
+    0.27345
+   ],
+   [
+    768.0,
+    0.05426
+   ],
+   [
+    2560.0,
+    0.17036
+   ],
+   [
+    4352.0,
+    0.16361
+   ],
+   [
+    768.0,
+    0.05604
+   ],
+   [
+    2560.0,
+    0.18072
+   ],
+   [
+    4352.0,
+    0.17374
+   ]
+  ],
+  "source": "arXiv:2505.06371 App. B.3 Table 4 (derived decode J/out-tok; approx)"
+ },
+ "t4_fit_70b": {
+  "kappa": -0.002527529660439118,
+  "slope": 0.0003089062500000001,
+  "intercept": -0.12221666666666636,
+  "r2": 0.6481664382771579,
+  "n": 3,
+  "points": [
+   [
+    768.0,
+    0.35049
+   ],
+   [
+    2560.0,
+    0.19765
+   ],
+   [
+    4352.0,
+    1.45761
+   ]
+  ],
+  "source": "arXiv:2505.06371 App. B.3 Table 4 (derived decode J/out-tok; approx)"
+ },
+ "models": [
+  {
+   "key": "llama31_8b",
+   "label": "Llama-3.1-8B-Instruct, 1xH100",
+   "reasoning": false,
+   "context_window": 131072,
+   "a_ref_J_per_tok": 0.09510991243206074,
+   "a_ref_source": "ML.ENERGY Leaderboard v3 @2bdd007, Llama-3.1-8B, 1xH100, max_num_seqs=128: https://github.com/ml-energy/leaderboard (commit 2bdd0070186956688e1f842dc28077980fe64013), file public/data/models/meta-llama__Llama-3.1-8B-Instruct__lm-arena-chat.json, configurations[gpu_model=H100,num_gpus=1,max_num_seqs=128] .energy_per_token_joules",
+   "r_pre": 0.29528666901160744,
+   "r_pre_source": "arXiv:2505.06371 Table 4, Llama 3.1 8B, in 512/out 512: prefill 0.0168 J/in-tok / decode 0.0569 J/out-tok",
+   "alpha": 0.026694623791742936,
+   "beta": 0.0,
+   "kv_bytes_per_token": 131072,
+   "arch_source": "Llama-3.1-8B config.json (bf16)",
+   "tpb_fit": {
+    "kappa": 5.207286123042954e-05,
+    "slope": 5.7418604651162715e-06,
+    "intercept": 0.11026589147286824,
+    "r2": 0.9997545971621394,
+    "n": 3,
+    "points": [
+     [
+      1000,
+      0.1158
+     ],
+     [
+      3500,
+      0.1307
+     ],
+     [
+      7500,
+      0.1532
+     ]
+    ],
+    "source": "arXiv:2512.03024 Fig. 3(b) GPU-only (figure-read, approx)"
+   },
+   "regimes": {
+    "meas": {
+     "a": 0.09040240076226941,
+     "b": 4.707511669791333e-06,
+     "kappa": 5.207286123042954e-05
+    },
+    "arch": {
+     "a": 0.04651628182056894,
+     "b": 4.85936306114918e-05,
+     "kappa": 0.0010446585305105853
+    },
+    "t4fit": {
+     "a": 0.045376128295641104,
+     "b": 4.973378413641964e-05,
+     "kappa": 0.0010960341043728303
+    }
+   }
+  },
+  {
+   "key": "llama31_70b",
+   "label": "Llama-3.1-70B-Instruct, 4xH100",
+   "reasoning": false,
+   "context_window": 131072,
+   "a_ref_J_per_tok": 0.5633656270485234,
+   "a_ref_source": "ML.ENERGY Leaderboard v3 @2bdd007, Llama-3.1-70B, 4xH100, max_num_seqs=128: https://github.com/ml-energy/leaderboard (commit 2bdd0070186956688e1f842dc28077980fe64013), file public/data/models/meta-llama__Llama-3.1-70B-Instruct__lm-arena-chat.json, configurations[gpu_model=H100,num_gpus=4,max_num_seqs=128] .energy_per_token_joules",
+   "r_pre": 0.5432109332648577,
+   "r_pre_source": "arXiv:2505.06371 Table 4, Llama 3.1 70B, in 512/out 512: prefill 0.1904 J/in-tok / decode 0.3505 J/out-tok",
+   "alpha": 0.290892026210922,
+   "beta": 0.0,
+   "kv_bytes_per_token": 327680,
+   "arch_source": "Llama-3.1-70B config.json (bf16)",
+   "tpb_fit": {
+    "kappa": 5.2027351951113607e-05,
+    "slope": 3.4386046511627875e-05,
+    "intercept": 0.6609224806201551,
+    "r2": 0.9997285534415907,
+    "n": 3,
+    "points": [
+     [
+      1000,
+      0.694
+     ],
+     [
+      3500,
+      0.7834
+     ],
+     [
+      7500,
+      0.918
+     ]
+    ],
+    "source": "arXiv:2512.03024 Fig. 3(b) GPU-only (figure-read, approx)"
+   },
+   "regimes": {
+    "meas": {
+     "a": 0.5355047337920377,
+     "b": 2.7860893256485744e-05,
+     "kappa": 5.2027351951113607e-05
+    },
+    "arch": {
+     "a": 0.43434479704634976,
+     "b": 0.00012902083000217372,
+     "kappa": 0.0002970470254957507
+    },
+    "t4fit": {
+     "a": 0.26877693729944924,
+     "b": 0.00029458868974907424,
+     "kappa": 0.0010960341043728303
+    }
+   }
+  },
+  {
+   "key": "qwen3_8b_reason",
+   "label": "Qwen3-8B (GPQA, reasoning), 1xH100",
+   "reasoning": true,
+   "context_window": 131072,
+   "a_ref_J_per_tok": 0.22106406919235558,
+   "a_ref_source": "ML.ENERGY Leaderboard v3 @2bdd007, Qwen3-8B, 1xH100, max_num_seqs=96: https://github.com/ml-energy/leaderboard (commit 2bdd0070186956688e1f842dc28077980fe64013), file public/data/models/Qwen__Qwen3-8B__gpqa.json, configurations[gpu_model=H100,num_gpus=1,max_num_seqs=96] .energy_per_token_joules",
+   "r_pre": 0.29528666901160744,
+   "r_pre_source": "arXiv:2505.06371 Table 4, Llama 3.1 8B, in 512/out 512: prefill 0.0168 J/in-tok / decode 0.0569 J/out-tok (proxy: no Table-4 row for Qwen3)",
+   "alpha": 0.06202309405375043,
+   "beta": 0.0,
+   "kv_bytes_per_token": 147456,
+   "arch_source": "Qwen3-8B config.json (bf16)",
+   "tpb_fit": {
+    "kappa": 5.246720799500308e-05,
+    "slope": 5.599999999999995e-06,
+    "intercept": 0.10673333333333332,
+    "r2": 0.9995750106247344,
+    "n": 3,
+    "points": [
+     [
+      1000,
+      0.1126
+     ],
+     [
+      3500,
+      0.1259
+     ],
+     [
+      7500,
+      0.1489
+     ]
+    ],
+    "source": "arXiv:2512.03024 Fig. 3(b) GPU-only (figure-read, approx)"
+   },
+   "regimes": {
+    "meas": {
+     "a": 0.21004366455606013,
+     "b": 1.1020404636295464e-05,
+     "kappa": 5.246720799500308e-05
+    },
+    "arch": {
+     "a": 0.11858318103233349,
+     "b": 0.00010248088816002208,
+     "kappa": 0.000864210989010989
+    },
+    "t4fit": {
+     "a": 0.10546778257622949,
+     "b": 0.00011559628661612609,
+     "kappa": 0.0010960341043728303
+    }
+   }
+  }
+ ]
+}

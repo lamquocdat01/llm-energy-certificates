@@ -1,0 +1,33 @@
+id,claim,key,value
+B1,"Thm 1: closed-form certificate, quadratic in M (H3)",e1.max_rel_err,8.257486997875299e-13
+B1,"Thm 1: closed-form certificate, quadratic in M (H3)",e1.h3.min_r2,1.0
+B1,"Thm 1: closed-form certificate, quadratic in M (H3)",bounds.Thm1.n_violations,0.0
+B2,Uncapped service: certificate/mean amplification (H1-ctx),e2.amp_unc_min,81.24427714927153
+B2,Uncapped service: certificate/mean amplification (H1-ctx),e2.amp_unc_max,2825.4657418526517
+B3,Thm 3: p-aware budget M_T(p) beats fixed output cap at equal cut,e2.p99.pareto_better_cells,21.0
+B3,Thm 3: p-aware budget M_T(p) beats fixed output cap at equal cut,e2.p99.pareto_gain_min,1.076570479013687
+B3,Thm 3: p-aware budget M_T(p) beats fixed output cap at equal cut,e2.p99.pareto_gain_max,32.21157634989988
+B3,Thm 3: p-aware budget M_T(p) beats fixed output cap at equal cut,bounds.Thm3.n_violations,0.0
+B4,Tightening max_tokens alone gains little (prompt limit matters),e2.p99.meas.red_vs_max_min,1.081467759737825
+B4,Tightening max_tokens alone gains little (prompt limit matters),e2.p99.meas.red_vs_max_max,3.736240395318661
+B5,"Thm 2: adaptive gates save on benign traffic, 0 % worst case (H2)",e3.entropy.S_benign_max,0.1443534057559225
+B5,"Thm 2: adaptive gates save on benign traffic, 0 % worst case (H2)",e3.max_dev_A,0.0
+B5,"Thm 2: adaptive gates save on benign traffic, 0 % worst case (H2)",e3.cells_fail_B,18.0
+B5,"Thm 2: adaptive gates save on benign traffic, 0 % worst case (H2)",bounds.Thm2.n_violations,0.0
+B6,SLA-window over-provisioning factor,e2.sla.azure2024_conv.W3600.q0.99.OPF_vs_max,5.791669924223827
+B7,Thm 4 (v1.1): batching amplification bounds (H5),e4.violations_shap,820041.0
+B7,Thm 4 (v1.1): batching amplification bounds (H5),e4.corrected.violations_shap,0.0
+B7,Thm 4 (v1.1): batching amplification bounds (H5),e4.corrected.violations_prop,0.0
+B7,Thm 4 (v1.1): batching amplification bounds (H5),e4.ii_preempt_max.chunked,942.0
+B7,Thm 4 (v1.1): batching amplification bounds (H5),bounds.Thm4.n_violations,0.0
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.net.r2,0.42848982212159326
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.net.b,3.310122744784269e-05
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.net.b_lo,1.7474000608085243e-05
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.net.b_hi,4.2770836334643804e-05
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.gross.r2,0.9320689514797977
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.gross.b,0.00014966384923739774
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.time.r2,0.9714065848684542
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.P_idle_pre_W,15.89545975886271
+B8,"Laptop: e_dec(c) linear, b > 0 (H6)",e5.P_idle_post_W,11.373795625340428
+B9,Controllability probe: > 20k tokens ungated (H7),probe.max_tokens_reached,24000.0
+B9,Controllability probe: > 20k tokens ungated (H7),probe.n_pass_20k_ungated,0.0

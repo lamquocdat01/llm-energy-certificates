@@ -1,0 +1,956 @@
+theorem,check,seed,n_checks,n_violations,params
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,llama31_8b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,llama31_8b|meas
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,llama31_8b|meas
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,llama31_8b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|meas
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,llama31_8b|meas
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,llama31_8b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,llama31_8b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,llama31_8b|meas
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,llama31_8b|meas
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,llama31_8b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|meas
+Thm3,azure2024_conv fixed caps never truncate less,42,86,0,llama31_8b|meas
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,llama31_8b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,llama31_8b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,llama31_8b|meas
+Thm3,burstgpt fixed caps never truncate less,42,87,0,llama31_8b|meas
+Thm3,burstgpt certified random policies never truncate less,42,80,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,llama31_8b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|meas
+Thm3,mooncake_conv fixed caps never truncate less,42,86,0,llama31_8b|meas
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,llama31_8b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,llama31_8b|meas
+Thm3,mooncake_tool fixed caps never truncate less,42,86,0,llama31_8b|meas
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,llama31_8b|meas
+Thm2,envelope formula == brute force,42,2000,0,llama31_8b|meas
+Thm2,WC(L o g) <= WC(L),42,2000,0,llama31_8b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,1014,0,llama31_8b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,llama31_8b|arch
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,llama31_8b|arch
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,llama31_8b|arch
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,llama31_8b|arch
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,llama31_8b|arch
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,llama31_8b|arch
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,llama31_8b|arch
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,llama31_8b|arch
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,llama31_8b|arch
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|arch
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,llama31_8b|arch
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,llama31_8b|arch
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,llama31_8b|arch
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,llama31_8b|arch
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,llama31_8b|arch
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,llama31_8b|arch
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,llama31_8b|arch
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,llama31_8b|arch
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,llama31_8b|arch
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,llama31_8b|arch
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,llama31_8b|arch
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|arch
+Thm3,azure2024_conv fixed caps never truncate less,42,87,0,llama31_8b|arch
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,llama31_8b|arch
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,llama31_8b|arch
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,llama31_8b|arch
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,llama31_8b|arch
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,llama31_8b|arch
+Thm3,burstgpt fixed caps never truncate less,42,86,0,llama31_8b|arch
+Thm3,burstgpt certified random policies never truncate less,42,80,0,llama31_8b|arch
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,llama31_8b|arch
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,llama31_8b|arch
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,llama31_8b|arch
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|arch
+Thm3,mooncake_conv fixed caps never truncate less,42,90,0,llama31_8b|arch
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,llama31_8b|arch
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,llama31_8b|arch
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,llama31_8b|arch
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,llama31_8b|arch
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,llama31_8b|arch
+Thm3,mooncake_tool fixed caps never truncate less,42,88,0,llama31_8b|arch
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,llama31_8b|arch
+Thm2,envelope formula == brute force,42,2000,0,llama31_8b|arch
+Thm2,WC(L o g) <= WC(L),42,2000,0,llama31_8b|arch
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,992,0,llama31_8b|arch
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,llama31_8b|t4fit
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,llama31_8b|t4fit
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,llama31_8b|t4fit
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,llama31_8b|t4fit
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,llama31_8b|t4fit
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,llama31_8b|t4fit
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,llama31_8b|t4fit
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,llama31_8b|t4fit
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,llama31_8b|t4fit
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|t4fit
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,llama31_8b|t4fit
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,llama31_8b|t4fit
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,llama31_8b|t4fit
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,llama31_8b|t4fit
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,llama31_8b|t4fit
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,llama31_8b|t4fit
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,llama31_8b|t4fit
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,llama31_8b|t4fit
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,llama31_8b|t4fit
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,llama31_8b|t4fit
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,llama31_8b|t4fit
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|t4fit
+Thm3,azure2024_conv fixed caps never truncate less,42,87,0,llama31_8b|t4fit
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,llama31_8b|t4fit
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,llama31_8b|t4fit
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,llama31_8b|t4fit
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,llama31_8b|t4fit
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,llama31_8b|t4fit
+Thm3,burstgpt fixed caps never truncate less,42,86,0,llama31_8b|t4fit
+Thm3,burstgpt certified random policies never truncate less,42,80,0,llama31_8b|t4fit
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,llama31_8b|t4fit
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,llama31_8b|t4fit
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,llama31_8b|t4fit
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,llama31_8b|t4fit
+Thm3,mooncake_conv fixed caps never truncate less,42,90,0,llama31_8b|t4fit
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,llama31_8b|t4fit
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,llama31_8b|t4fit
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,llama31_8b|t4fit
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,llama31_8b|t4fit
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,llama31_8b|t4fit
+Thm3,mooncake_tool fixed caps never truncate less,42,88,0,llama31_8b|t4fit
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,llama31_8b|t4fit
+Thm2,envelope formula == brute force,42,2000,0,llama31_8b|t4fit
+Thm2,WC(L o g) <= WC(L),42,2000,0,llama31_8b|t4fit
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,990,0,llama31_8b|t4fit
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,llama31_70b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,llama31_70b|meas
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,llama31_70b|meas
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,llama31_70b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|meas
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,llama31_70b|meas
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,llama31_70b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,llama31_70b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,llama31_70b|meas
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,llama31_70b|meas
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,llama31_70b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|meas
+Thm3,azure2024_conv fixed caps never truncate less,42,85,0,llama31_70b|meas
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,llama31_70b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,llama31_70b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,llama31_70b|meas
+Thm3,burstgpt fixed caps never truncate less,42,85,0,llama31_70b|meas
+Thm3,burstgpt certified random policies never truncate less,42,80,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,llama31_70b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|meas
+Thm3,mooncake_conv fixed caps never truncate less,42,84,0,llama31_70b|meas
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,llama31_70b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,llama31_70b|meas
+Thm3,mooncake_tool fixed caps never truncate less,42,83,0,llama31_70b|meas
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,llama31_70b|meas
+Thm2,envelope formula == brute force,42,2000,0,llama31_70b|meas
+Thm2,WC(L o g) <= WC(L),42,2000,0,llama31_70b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,1016,0,llama31_70b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,llama31_70b|arch
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,llama31_70b|arch
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,llama31_70b|arch
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,llama31_70b|arch
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,llama31_70b|arch
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,llama31_70b|arch
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,llama31_70b|arch
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,llama31_70b|arch
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,llama31_70b|arch
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|arch
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,llama31_70b|arch
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,llama31_70b|arch
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,llama31_70b|arch
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,llama31_70b|arch
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,llama31_70b|arch
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,llama31_70b|arch
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,llama31_70b|arch
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,llama31_70b|arch
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,llama31_70b|arch
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,llama31_70b|arch
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,llama31_70b|arch
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|arch
+Thm3,azure2024_conv fixed caps never truncate less,42,85,0,llama31_70b|arch
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,llama31_70b|arch
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,llama31_70b|arch
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,llama31_70b|arch
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,llama31_70b|arch
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,llama31_70b|arch
+Thm3,burstgpt fixed caps never truncate less,42,85,0,llama31_70b|arch
+Thm3,burstgpt certified random policies never truncate less,42,80,0,llama31_70b|arch
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,llama31_70b|arch
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,llama31_70b|arch
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,llama31_70b|arch
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|arch
+Thm3,mooncake_conv fixed caps never truncate less,42,86,0,llama31_70b|arch
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,llama31_70b|arch
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,llama31_70b|arch
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,llama31_70b|arch
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,llama31_70b|arch
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,llama31_70b|arch
+Thm3,mooncake_tool fixed caps never truncate less,42,86,0,llama31_70b|arch
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,llama31_70b|arch
+Thm2,envelope formula == brute force,42,2000,0,llama31_70b|arch
+Thm2,WC(L o g) <= WC(L),42,2000,0,llama31_70b|arch
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,975,0,llama31_70b|arch
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,llama31_70b|t4fit
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,llama31_70b|t4fit
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,llama31_70b|t4fit
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,llama31_70b|t4fit
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,llama31_70b|t4fit
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,llama31_70b|t4fit
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,llama31_70b|t4fit
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,llama31_70b|t4fit
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,llama31_70b|t4fit
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|t4fit
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,llama31_70b|t4fit
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,llama31_70b|t4fit
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,llama31_70b|t4fit
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,llama31_70b|t4fit
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,llama31_70b|t4fit
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,llama31_70b|t4fit
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,llama31_70b|t4fit
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,llama31_70b|t4fit
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,llama31_70b|t4fit
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,llama31_70b|t4fit
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,llama31_70b|t4fit
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|t4fit
+Thm3,azure2024_conv fixed caps never truncate less,42,86,0,llama31_70b|t4fit
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,llama31_70b|t4fit
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,llama31_70b|t4fit
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,llama31_70b|t4fit
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,llama31_70b|t4fit
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,llama31_70b|t4fit
+Thm3,burstgpt fixed caps never truncate less,42,85,0,llama31_70b|t4fit
+Thm3,burstgpt certified random policies never truncate less,42,80,0,llama31_70b|t4fit
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,llama31_70b|t4fit
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,llama31_70b|t4fit
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,llama31_70b|t4fit
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,llama31_70b|t4fit
+Thm3,mooncake_conv fixed caps never truncate less,42,87,0,llama31_70b|t4fit
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,llama31_70b|t4fit
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,llama31_70b|t4fit
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,llama31_70b|t4fit
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,llama31_70b|t4fit
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,llama31_70b|t4fit
+Thm3,mooncake_tool fixed caps never truncate less,42,86,0,llama31_70b|t4fit
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,llama31_70b|t4fit
+Thm2,envelope formula == brute force,42,2000,0,llama31_70b|t4fit
+Thm2,WC(L o g) <= WC(L),42,2000,0,llama31_70b|t4fit
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,1017,0,llama31_70b|t4fit
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,qwen3_8b_reason|meas
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,qwen3_8b_reason|meas
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv fixed caps never truncate less,42,86,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|meas
+Thm3,burstgpt fixed caps never truncate less,42,87,0,qwen3_8b_reason|meas
+Thm3,burstgpt certified random policies never truncate less,42,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv fixed caps never truncate less,42,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool fixed caps never truncate less,42,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,qwen3_8b_reason|meas
+Thm2,envelope formula == brute force,42,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g) <= WC(L),42,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,976,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|arch
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|arch
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|arch
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|arch
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,qwen3_8b_reason|arch
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,qwen3_8b_reason|arch
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|arch
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|arch
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|arch
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|arch
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,qwen3_8b_reason|arch
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|arch
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|arch
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|arch
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|arch
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|arch
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,qwen3_8b_reason|arch
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,qwen3_8b_reason|arch
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|arch
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|arch
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|arch
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|arch
+Thm3,azure2024_conv fixed caps never truncate less,42,87,0,qwen3_8b_reason|arch
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|arch
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|arch
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|arch
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|arch
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|arch
+Thm3,burstgpt fixed caps never truncate less,42,86,0,qwen3_8b_reason|arch
+Thm3,burstgpt certified random policies never truncate less,42,80,0,qwen3_8b_reason|arch
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|arch
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|arch
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|arch
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|arch
+Thm3,mooncake_conv fixed caps never truncate less,42,90,0,qwen3_8b_reason|arch
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|arch
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|arch
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|arch
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|arch
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|arch
+Thm3,mooncake_tool fixed caps never truncate less,42,87,0,qwen3_8b_reason|arch
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,qwen3_8b_reason|arch
+Thm2,envelope formula == brute force,42,2000,0,qwen3_8b_reason|arch
+Thm2,WC(L o g) <= WC(L),42,2000,0,qwen3_8b_reason|arch
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,966,0,qwen3_8b_reason|arch
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|t4fit
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|t4fit
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,42,108820,0,qwen3_8b_reason|t4fit
+Thm3,azure2023_code cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|t4fit
+Thm3,azure2023_code fixed caps never truncate less,42,85,0,qwen3_8b_reason|t4fit
+Thm3,azure2023_code certified random policies never truncate less,42,80,0,qwen3_8b_reason|t4fit
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|t4fit
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|t4fit
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,42,119367,0,qwen3_8b_reason|t4fit
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|t4fit
+Thm3,azure2023_conv fixed caps never truncate less,42,91,0,qwen3_8b_reason|t4fit
+Thm3,azure2023_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|t4fit
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|t4fit
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|t4fit
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,42,16903696,0,qwen3_8b_reason|t4fit
+Thm3,azure2024_code cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|t4fit
+Thm3,azure2024_code fixed caps never truncate less,42,85,0,qwen3_8b_reason|t4fit
+Thm3,azure2024_code certified random policies never truncate less,42,80,0,qwen3_8b_reason|t4fit
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|t4fit
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|t4fit
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,42,27404000,0,qwen3_8b_reason|t4fit
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|t4fit
+Thm3,azure2024_conv fixed caps never truncate less,42,87,0,qwen3_8b_reason|t4fit
+Thm3,azure2024_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|t4fit
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|t4fit
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|t4fit
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,42,10244566,0,qwen3_8b_reason|t4fit
+Thm3,burstgpt cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|t4fit
+Thm3,burstgpt fixed caps never truncate less,42,86,0,qwen3_8b_reason|t4fit
+Thm3,burstgpt certified random policies never truncate less,42,80,0,qwen3_8b_reason|t4fit
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|t4fit
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|t4fit
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,42,112032,0,qwen3_8b_reason|t4fit
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|t4fit
+Thm3,mooncake_conv fixed caps never truncate less,42,90,0,qwen3_8b_reason|t4fit
+Thm3,mooncake_conv certified random policies never truncate less,42,80,0,qwen3_8b_reason|t4fit
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|t4fit
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|t4fit
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,42,123609,0,qwen3_8b_reason|t4fit
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),42,4,0,qwen3_8b_reason|t4fit
+Thm3,mooncake_tool fixed caps never truncate less,42,88,0,qwen3_8b_reason|t4fit
+Thm3,mooncake_tool certified random policies never truncate less,42,80,0,qwen3_8b_reason|t4fit
+Thm2,envelope formula == brute force,42,2000,0,qwen3_8b_reason|t4fit
+Thm2,WC(L o g) <= WC(L),42,2000,0,qwen3_8b_reason|t4fit
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),42,981,0,qwen3_8b_reason|t4fit
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,43,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,43,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,43,108820,0,llama31_8b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),43,4,0,llama31_8b|meas
+Thm3,azure2023_code fixed caps never truncate less,43,85,0,llama31_8b|meas
+Thm3,azure2023_code certified random policies never truncate less,43,80,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,43,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,43,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,43,119367,0,llama31_8b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),43,4,0,llama31_8b|meas
+Thm3,azure2023_conv fixed caps never truncate less,43,91,0,llama31_8b|meas
+Thm3,azure2023_conv certified random policies never truncate less,43,80,0,llama31_8b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,43,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,43,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,43,16903696,0,llama31_8b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),43,4,0,llama31_8b|meas
+Thm3,azure2024_code fixed caps never truncate less,43,85,0,llama31_8b|meas
+Thm3,azure2024_code certified random policies never truncate less,43,80,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,43,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,43,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,43,27404000,0,llama31_8b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),43,4,0,llama31_8b|meas
+Thm3,azure2024_conv fixed caps never truncate less,43,86,0,llama31_8b|meas
+Thm3,azure2024_conv certified random policies never truncate less,43,80,0,llama31_8b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,43,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,43,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,43,10244566,0,llama31_8b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),43,4,0,llama31_8b|meas
+Thm3,burstgpt fixed caps never truncate less,43,87,0,llama31_8b|meas
+Thm3,burstgpt certified random policies never truncate less,43,80,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,43,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,43,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,43,112032,0,llama31_8b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),43,4,0,llama31_8b|meas
+Thm3,mooncake_conv fixed caps never truncate less,43,86,0,llama31_8b|meas
+Thm3,mooncake_conv certified random policies never truncate less,43,80,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,43,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,43,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,43,123609,0,llama31_8b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),43,4,0,llama31_8b|meas
+Thm3,mooncake_tool fixed caps never truncate less,43,86,0,llama31_8b|meas
+Thm3,mooncake_tool certified random policies never truncate less,43,80,0,llama31_8b|meas
+Thm2,envelope formula == brute force,43,2000,0,llama31_8b|meas
+Thm2,WC(L o g) <= WC(L),43,2000,0,llama31_8b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),43,1005,0,llama31_8b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,43,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,43,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,43,108820,0,llama31_70b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),43,4,0,llama31_70b|meas
+Thm3,azure2023_code fixed caps never truncate less,43,85,0,llama31_70b|meas
+Thm3,azure2023_code certified random policies never truncate less,43,80,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,43,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,43,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,43,119367,0,llama31_70b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),43,4,0,llama31_70b|meas
+Thm3,azure2023_conv fixed caps never truncate less,43,91,0,llama31_70b|meas
+Thm3,azure2023_conv certified random policies never truncate less,43,80,0,llama31_70b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,43,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,43,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,43,16903696,0,llama31_70b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),43,4,0,llama31_70b|meas
+Thm3,azure2024_code fixed caps never truncate less,43,85,0,llama31_70b|meas
+Thm3,azure2024_code certified random policies never truncate less,43,80,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,43,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,43,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,43,27404000,0,llama31_70b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),43,4,0,llama31_70b|meas
+Thm3,azure2024_conv fixed caps never truncate less,43,85,0,llama31_70b|meas
+Thm3,azure2024_conv certified random policies never truncate less,43,80,0,llama31_70b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,43,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,43,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,43,10244566,0,llama31_70b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),43,4,0,llama31_70b|meas
+Thm3,burstgpt fixed caps never truncate less,43,85,0,llama31_70b|meas
+Thm3,burstgpt certified random policies never truncate less,43,80,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,43,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,43,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,43,112032,0,llama31_70b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),43,4,0,llama31_70b|meas
+Thm3,mooncake_conv fixed caps never truncate less,43,84,0,llama31_70b|meas
+Thm3,mooncake_conv certified random policies never truncate less,43,80,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,43,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,43,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,43,123609,0,llama31_70b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),43,4,0,llama31_70b|meas
+Thm3,mooncake_tool fixed caps never truncate less,43,83,0,llama31_70b|meas
+Thm3,mooncake_tool certified random policies never truncate less,43,80,0,llama31_70b|meas
+Thm2,envelope formula == brute force,43,2000,0,llama31_70b|meas
+Thm2,WC(L o g) <= WC(L),43,2000,0,llama31_70b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),43,1023,0,llama31_70b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,43,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,43,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,43,108820,0,qwen3_8b_reason|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),43,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_code fixed caps never truncate less,43,85,0,qwen3_8b_reason|meas
+Thm3,azure2023_code certified random policies never truncate less,43,80,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,43,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,43,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,43,119367,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),43,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv fixed caps never truncate less,43,91,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv certified random policies never truncate less,43,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,43,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,43,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,43,16903696,0,qwen3_8b_reason|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),43,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_code fixed caps never truncate less,43,85,0,qwen3_8b_reason|meas
+Thm3,azure2024_code certified random policies never truncate less,43,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,43,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,43,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,43,27404000,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),43,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv fixed caps never truncate less,43,86,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv certified random policies never truncate less,43,80,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,43,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,43,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,43,10244566,0,qwen3_8b_reason|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),43,4,0,qwen3_8b_reason|meas
+Thm3,burstgpt fixed caps never truncate less,43,87,0,qwen3_8b_reason|meas
+Thm3,burstgpt certified random policies never truncate less,43,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,43,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,43,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,43,112032,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),43,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv fixed caps never truncate less,43,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv certified random policies never truncate less,43,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,43,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,43,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,43,123609,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),43,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool fixed caps never truncate less,43,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool certified random policies never truncate less,43,80,0,qwen3_8b_reason|meas
+Thm2,envelope formula == brute force,43,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g) <= WC(L),43,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),43,1036,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,44,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,44,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,44,108820,0,llama31_8b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),44,4,0,llama31_8b|meas
+Thm3,azure2023_code fixed caps never truncate less,44,85,0,llama31_8b|meas
+Thm3,azure2023_code certified random policies never truncate less,44,80,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,44,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,44,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,44,119367,0,llama31_8b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),44,4,0,llama31_8b|meas
+Thm3,azure2023_conv fixed caps never truncate less,44,91,0,llama31_8b|meas
+Thm3,azure2023_conv certified random policies never truncate less,44,80,0,llama31_8b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,44,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,44,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,44,16903696,0,llama31_8b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),44,4,0,llama31_8b|meas
+Thm3,azure2024_code fixed caps never truncate less,44,85,0,llama31_8b|meas
+Thm3,azure2024_code certified random policies never truncate less,44,80,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,44,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,44,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,44,27404000,0,llama31_8b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),44,4,0,llama31_8b|meas
+Thm3,azure2024_conv fixed caps never truncate less,44,86,0,llama31_8b|meas
+Thm3,azure2024_conv certified random policies never truncate less,44,80,0,llama31_8b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,44,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,44,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,44,10244566,0,llama31_8b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),44,4,0,llama31_8b|meas
+Thm3,burstgpt fixed caps never truncate less,44,86,0,llama31_8b|meas
+Thm3,burstgpt certified random policies never truncate less,44,80,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,44,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,44,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,44,112032,0,llama31_8b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),44,4,0,llama31_8b|meas
+Thm3,mooncake_conv fixed caps never truncate less,44,86,0,llama31_8b|meas
+Thm3,mooncake_conv certified random policies never truncate less,44,80,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,44,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,44,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,44,123609,0,llama31_8b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),44,4,0,llama31_8b|meas
+Thm3,mooncake_tool fixed caps never truncate less,44,86,0,llama31_8b|meas
+Thm3,mooncake_tool certified random policies never truncate less,44,80,0,llama31_8b|meas
+Thm2,envelope formula == brute force,44,2000,0,llama31_8b|meas
+Thm2,WC(L o g) <= WC(L),44,2000,0,llama31_8b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),44,988,0,llama31_8b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,44,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,44,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,44,108820,0,llama31_70b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),44,4,0,llama31_70b|meas
+Thm3,azure2023_code fixed caps never truncate less,44,85,0,llama31_70b|meas
+Thm3,azure2023_code certified random policies never truncate less,44,80,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,44,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,44,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,44,119367,0,llama31_70b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),44,4,0,llama31_70b|meas
+Thm3,azure2023_conv fixed caps never truncate less,44,91,0,llama31_70b|meas
+Thm3,azure2023_conv certified random policies never truncate less,44,80,0,llama31_70b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,44,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,44,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,44,16903696,0,llama31_70b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),44,4,0,llama31_70b|meas
+Thm3,azure2024_code fixed caps never truncate less,44,85,0,llama31_70b|meas
+Thm3,azure2024_code certified random policies never truncate less,44,80,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,44,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,44,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,44,27404000,0,llama31_70b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),44,4,0,llama31_70b|meas
+Thm3,azure2024_conv fixed caps never truncate less,44,85,0,llama31_70b|meas
+Thm3,azure2024_conv certified random policies never truncate less,44,80,0,llama31_70b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,44,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,44,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,44,10244566,0,llama31_70b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),44,4,0,llama31_70b|meas
+Thm3,burstgpt fixed caps never truncate less,44,85,0,llama31_70b|meas
+Thm3,burstgpt certified random policies never truncate less,44,80,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,44,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,44,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,44,112032,0,llama31_70b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),44,4,0,llama31_70b|meas
+Thm3,mooncake_conv fixed caps never truncate less,44,84,0,llama31_70b|meas
+Thm3,mooncake_conv certified random policies never truncate less,44,80,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,44,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,44,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,44,123609,0,llama31_70b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),44,4,0,llama31_70b|meas
+Thm3,mooncake_tool fixed caps never truncate less,44,83,0,llama31_70b|meas
+Thm3,mooncake_tool certified random policies never truncate less,44,80,0,llama31_70b|meas
+Thm2,envelope formula == brute force,44,2000,0,llama31_70b|meas
+Thm2,WC(L o g) <= WC(L),44,2000,0,llama31_70b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),44,1010,0,llama31_70b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,44,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,44,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,44,108820,0,qwen3_8b_reason|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),44,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_code fixed caps never truncate less,44,85,0,qwen3_8b_reason|meas
+Thm3,azure2023_code certified random policies never truncate less,44,80,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,44,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,44,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,44,119367,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),44,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv fixed caps never truncate less,44,91,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv certified random policies never truncate less,44,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,44,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,44,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,44,16903696,0,qwen3_8b_reason|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),44,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_code fixed caps never truncate less,44,85,0,qwen3_8b_reason|meas
+Thm3,azure2024_code certified random policies never truncate less,44,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,44,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,44,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,44,27404000,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),44,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv fixed caps never truncate less,44,86,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv certified random policies never truncate less,44,80,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,44,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,44,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,44,10244566,0,qwen3_8b_reason|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),44,4,0,qwen3_8b_reason|meas
+Thm3,burstgpt fixed caps never truncate less,44,87,0,qwen3_8b_reason|meas
+Thm3,burstgpt certified random policies never truncate less,44,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,44,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,44,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,44,112032,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),44,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv fixed caps never truncate less,44,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv certified random policies never truncate less,44,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,44,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,44,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,44,123609,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),44,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool fixed caps never truncate less,44,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool certified random policies never truncate less,44,80,0,qwen3_8b_reason|meas
+Thm2,envelope formula == brute force,44,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g) <= WC(L),44,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),44,1002,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,45,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,45,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,45,108820,0,llama31_8b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),45,4,0,llama31_8b|meas
+Thm3,azure2023_code fixed caps never truncate less,45,85,0,llama31_8b|meas
+Thm3,azure2023_code certified random policies never truncate less,45,80,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,45,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,45,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,45,119367,0,llama31_8b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),45,4,0,llama31_8b|meas
+Thm3,azure2023_conv fixed caps never truncate less,45,91,0,llama31_8b|meas
+Thm3,azure2023_conv certified random policies never truncate less,45,80,0,llama31_8b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,45,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,45,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,45,16903696,0,llama31_8b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),45,4,0,llama31_8b|meas
+Thm3,azure2024_code fixed caps never truncate less,45,85,0,llama31_8b|meas
+Thm3,azure2024_code certified random policies never truncate less,45,80,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,45,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,45,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,45,27404000,0,llama31_8b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),45,4,0,llama31_8b|meas
+Thm3,azure2024_conv fixed caps never truncate less,45,86,0,llama31_8b|meas
+Thm3,azure2024_conv certified random policies never truncate less,45,80,0,llama31_8b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,45,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,45,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,45,10244566,0,llama31_8b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),45,4,0,llama31_8b|meas
+Thm3,burstgpt fixed caps never truncate less,45,87,0,llama31_8b|meas
+Thm3,burstgpt certified random policies never truncate less,45,80,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,45,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,45,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,45,112032,0,llama31_8b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),45,4,0,llama31_8b|meas
+Thm3,mooncake_conv fixed caps never truncate less,45,86,0,llama31_8b|meas
+Thm3,mooncake_conv certified random policies never truncate less,45,80,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,45,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,45,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,45,123609,0,llama31_8b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),45,4,0,llama31_8b|meas
+Thm3,mooncake_tool fixed caps never truncate less,45,86,0,llama31_8b|meas
+Thm3,mooncake_tool certified random policies never truncate less,45,80,0,llama31_8b|meas
+Thm2,envelope formula == brute force,45,2000,0,llama31_8b|meas
+Thm2,WC(L o g) <= WC(L),45,2000,0,llama31_8b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),45,1005,0,llama31_8b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,45,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,45,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,45,108820,0,llama31_70b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),45,4,0,llama31_70b|meas
+Thm3,azure2023_code fixed caps never truncate less,45,85,0,llama31_70b|meas
+Thm3,azure2023_code certified random policies never truncate less,45,80,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,45,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,45,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,45,119367,0,llama31_70b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),45,4,0,llama31_70b|meas
+Thm3,azure2023_conv fixed caps never truncate less,45,91,0,llama31_70b|meas
+Thm3,azure2023_conv certified random policies never truncate less,45,80,0,llama31_70b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,45,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,45,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,45,16903696,0,llama31_70b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),45,4,0,llama31_70b|meas
+Thm3,azure2024_code fixed caps never truncate less,45,85,0,llama31_70b|meas
+Thm3,azure2024_code certified random policies never truncate less,45,80,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,45,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,45,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,45,27404000,0,llama31_70b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),45,4,0,llama31_70b|meas
+Thm3,azure2024_conv fixed caps never truncate less,45,85,0,llama31_70b|meas
+Thm3,azure2024_conv certified random policies never truncate less,45,80,0,llama31_70b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,45,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,45,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,45,10244566,0,llama31_70b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),45,4,0,llama31_70b|meas
+Thm3,burstgpt fixed caps never truncate less,45,85,0,llama31_70b|meas
+Thm3,burstgpt certified random policies never truncate less,45,80,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,45,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,45,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,45,112032,0,llama31_70b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),45,4,0,llama31_70b|meas
+Thm3,mooncake_conv fixed caps never truncate less,45,84,0,llama31_70b|meas
+Thm3,mooncake_conv certified random policies never truncate less,45,80,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,45,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,45,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,45,123609,0,llama31_70b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),45,4,0,llama31_70b|meas
+Thm3,mooncake_tool fixed caps never truncate less,45,83,0,llama31_70b|meas
+Thm3,mooncake_tool certified random policies never truncate less,45,80,0,llama31_70b|meas
+Thm2,envelope formula == brute force,45,2000,0,llama31_70b|meas
+Thm2,WC(L o g) <= WC(L),45,2000,0,llama31_70b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),45,1001,0,llama31_70b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,45,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,45,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,45,108820,0,qwen3_8b_reason|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),45,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_code fixed caps never truncate less,45,85,0,qwen3_8b_reason|meas
+Thm3,azure2023_code certified random policies never truncate less,45,80,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,45,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,45,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,45,119367,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),45,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv fixed caps never truncate less,45,91,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv certified random policies never truncate less,45,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,45,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,45,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,45,16903696,0,qwen3_8b_reason|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),45,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_code fixed caps never truncate less,45,85,0,qwen3_8b_reason|meas
+Thm3,azure2024_code certified random policies never truncate less,45,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,45,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,45,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,45,27404000,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),45,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv fixed caps never truncate less,45,86,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv certified random policies never truncate less,45,80,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,45,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,45,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,45,10244566,0,qwen3_8b_reason|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),45,4,0,qwen3_8b_reason|meas
+Thm3,burstgpt fixed caps never truncate less,45,87,0,qwen3_8b_reason|meas
+Thm3,burstgpt certified random policies never truncate less,45,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,45,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,45,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,45,112032,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),45,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv fixed caps never truncate less,45,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv certified random policies never truncate less,45,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,45,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,45,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,45,123609,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),45,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool fixed caps never truncate less,45,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool certified random policies never truncate less,45,80,0,qwen3_8b_reason|meas
+Thm2,envelope formula == brute force,45,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g) <= WC(L),45,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),45,1044,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,46,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,46,108820,0,llama31_8b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,46,108820,0,llama31_8b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),46,4,0,llama31_8b|meas
+Thm3,azure2023_code fixed caps never truncate less,46,85,0,llama31_8b|meas
+Thm3,azure2023_code certified random policies never truncate less,46,80,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,46,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,46,119367,0,llama31_8b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,46,119367,0,llama31_8b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),46,4,0,llama31_8b|meas
+Thm3,azure2023_conv fixed caps never truncate less,46,91,0,llama31_8b|meas
+Thm3,azure2023_conv certified random policies never truncate less,46,80,0,llama31_8b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,46,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,46,16903696,0,llama31_8b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,46,16903696,0,llama31_8b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),46,4,0,llama31_8b|meas
+Thm3,azure2024_code fixed caps never truncate less,46,85,0,llama31_8b|meas
+Thm3,azure2024_code certified random policies never truncate less,46,80,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,46,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,46,27404000,0,llama31_8b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,46,27404000,0,llama31_8b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),46,4,0,llama31_8b|meas
+Thm3,azure2024_conv fixed caps never truncate less,46,86,0,llama31_8b|meas
+Thm3,azure2024_conv certified random policies never truncate less,46,80,0,llama31_8b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,46,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,46,10244566,0,llama31_8b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,46,10244566,0,llama31_8b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),46,4,0,llama31_8b|meas
+Thm3,burstgpt fixed caps never truncate less,46,87,0,llama31_8b|meas
+Thm3,burstgpt certified random policies never truncate less,46,80,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,46,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,46,112032,0,llama31_8b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,46,112032,0,llama31_8b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),46,4,0,llama31_8b|meas
+Thm3,mooncake_conv fixed caps never truncate less,46,86,0,llama31_8b|meas
+Thm3,mooncake_conv certified random policies never truncate less,46,80,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,46,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,46,123609,0,llama31_8b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,46,123609,0,llama31_8b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),46,4,0,llama31_8b|meas
+Thm3,mooncake_tool fixed caps never truncate less,46,86,0,llama31_8b|meas
+Thm3,mooncake_tool certified random policies never truncate less,46,80,0,llama31_8b|meas
+Thm2,envelope formula == brute force,46,2000,0,llama31_8b|meas
+Thm2,WC(L o g) <= WC(L),46,2000,0,llama31_8b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),46,983,0,llama31_8b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,46,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,46,108820,0,llama31_70b|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,46,108820,0,llama31_70b|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),46,4,0,llama31_70b|meas
+Thm3,azure2023_code fixed caps never truncate less,46,85,0,llama31_70b|meas
+Thm3,azure2023_code certified random policies never truncate less,46,80,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,46,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,46,119367,0,llama31_70b|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,46,119367,0,llama31_70b|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),46,4,0,llama31_70b|meas
+Thm3,azure2023_conv fixed caps never truncate less,46,91,0,llama31_70b|meas
+Thm3,azure2023_conv certified random policies never truncate less,46,80,0,llama31_70b|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,46,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,46,16903696,0,llama31_70b|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,46,16903696,0,llama31_70b|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),46,4,0,llama31_70b|meas
+Thm3,azure2024_code fixed caps never truncate less,46,85,0,llama31_70b|meas
+Thm3,azure2024_code certified random policies never truncate less,46,80,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,46,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,46,27404000,0,llama31_70b|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,46,27404000,0,llama31_70b|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),46,4,0,llama31_70b|meas
+Thm3,azure2024_conv fixed caps never truncate less,46,85,0,llama31_70b|meas
+Thm3,azure2024_conv certified random policies never truncate less,46,80,0,llama31_70b|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,46,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,46,10244566,0,llama31_70b|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,46,10244566,0,llama31_70b|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),46,4,0,llama31_70b|meas
+Thm3,burstgpt fixed caps never truncate less,46,85,0,llama31_70b|meas
+Thm3,burstgpt certified random policies never truncate less,46,80,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,46,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,46,112032,0,llama31_70b|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,46,112032,0,llama31_70b|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),46,4,0,llama31_70b|meas
+Thm3,mooncake_conv fixed caps never truncate less,46,84,0,llama31_70b|meas
+Thm3,mooncake_conv certified random policies never truncate less,46,80,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,46,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,46,123609,0,llama31_70b|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,46,123609,0,llama31_70b|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),46,4,0,llama31_70b|meas
+Thm3,mooncake_tool fixed caps never truncate less,46,83,0,llama31_70b|meas
+Thm3,mooncake_tool certified random policies never truncate less,46,80,0,llama31_70b|meas
+Thm2,envelope formula == brute force,46,2000,0,llama31_70b|meas
+Thm2,WC(L o g) <= WC(L),46,2000,0,llama31_70b|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),46,995,0,llama31_70b|meas
+Thm1,azure2023_code q=0.99 trace+random<=E_max; attained,46,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=0.999 trace+random<=E_max; attained,46,108820,0,qwen3_8b_reason|meas
+Thm1,azure2023_code q=1.0 trace+random<=E_max; attained,46,108820,0,qwen3_8b_reason|meas
+Thm3,azure2023_code cut(pi_T*) == P(E>T),46,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_code fixed caps never truncate less,46,85,0,qwen3_8b_reason|meas
+Thm3,azure2023_code certified random policies never truncate less,46,80,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.99 trace+random<=E_max; attained,46,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=0.999 trace+random<=E_max; attained,46,119367,0,qwen3_8b_reason|meas
+Thm1,azure2023_conv q=1.0 trace+random<=E_max; attained,46,119367,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv cut(pi_T*) == P(E>T),46,4,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv fixed caps never truncate less,46,91,0,qwen3_8b_reason|meas
+Thm3,azure2023_conv certified random policies never truncate less,46,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.99 trace+random<=E_max; attained,46,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=0.999 trace+random<=E_max; attained,46,16903696,0,qwen3_8b_reason|meas
+Thm1,azure2024_code q=1.0 trace+random<=E_max; attained,46,16903696,0,qwen3_8b_reason|meas
+Thm3,azure2024_code cut(pi_T*) == P(E>T),46,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_code fixed caps never truncate less,46,85,0,qwen3_8b_reason|meas
+Thm3,azure2024_code certified random policies never truncate less,46,80,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.99 trace+random<=E_max; attained,46,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=0.999 trace+random<=E_max; attained,46,27404000,0,qwen3_8b_reason|meas
+Thm1,azure2024_conv q=1.0 trace+random<=E_max; attained,46,27404000,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv cut(pi_T*) == P(E>T),46,4,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv fixed caps never truncate less,46,86,0,qwen3_8b_reason|meas
+Thm3,azure2024_conv certified random policies never truncate less,46,80,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.99 trace+random<=E_max; attained,46,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=0.999 trace+random<=E_max; attained,46,10244566,0,qwen3_8b_reason|meas
+Thm1,burstgpt q=1.0 trace+random<=E_max; attained,46,10244566,0,qwen3_8b_reason|meas
+Thm3,burstgpt cut(pi_T*) == P(E>T),46,4,0,qwen3_8b_reason|meas
+Thm3,burstgpt fixed caps never truncate less,46,87,0,qwen3_8b_reason|meas
+Thm3,burstgpt certified random policies never truncate less,46,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.99 trace+random<=E_max; attained,46,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=0.999 trace+random<=E_max; attained,46,112032,0,qwen3_8b_reason|meas
+Thm1,mooncake_conv q=1.0 trace+random<=E_max; attained,46,112032,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv cut(pi_T*) == P(E>T),46,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv fixed caps never truncate less,46,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_conv certified random policies never truncate less,46,80,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.99 trace+random<=E_max; attained,46,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=0.999 trace+random<=E_max; attained,46,123609,0,qwen3_8b_reason|meas
+Thm1,mooncake_tool q=1.0 trace+random<=E_max; attained,46,123609,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool cut(pi_T*) == P(E>T),46,4,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool fixed caps never truncate less,46,86,0,qwen3_8b_reason|meas
+Thm3,mooncake_tool certified random policies never truncate less,46,80,0,qwen3_8b_reason|meas
+Thm2,envelope formula == brute force,46,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g) <= WC(L),46,2000,0,qwen3_8b_reason|meas
+Thm2,WC(L o g)==WC(L) iff M_g(P_max)>=M (universes with R),46,986,0,qwen3_8b_reason|meas
+Thm4,attributed energy <= corrected Thm 4 bound (random instances),42,100520,0,llama31_8b|meas+arch
+Thm4,rule ii (whole-context admission): preemptions <= B - 1,42,4490,0,llama31_8b|meas+arch
+Thm4,attributed energy <= corrected Thm 4 bound (random instances),43,98544,0,llama31_8b|meas+arch
+Thm4,rule ii (whole-context admission): preemptions <= B - 1,43,3555,0,llama31_8b|meas+arch
+Thm4,attributed energy <= corrected Thm 4 bound (random instances),44,104200,0,llama31_8b|meas+arch
+Thm4,rule ii (whole-context admission): preemptions <= B - 1,44,4861,0,llama31_8b|meas+arch
+Thm4,attributed energy <= corrected Thm 4 bound (random instances),45,105480,0,llama31_8b|meas+arch
+Thm4,rule ii (whole-context admission): preemptions <= B - 1,45,4753,0,llama31_8b|meas+arch
+Thm4,attributed energy <= corrected Thm 4 bound (random instances),46,99544,0,llama31_8b|meas+arch
+Thm4,rule ii (whole-context admission): preemptions <= B - 1,46,4866,0,llama31_8b|meas+arch

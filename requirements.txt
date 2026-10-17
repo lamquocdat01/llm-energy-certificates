@@ -1,0 +1,10 @@
+# Topic 38 — tested with Python 3.11.9 (Windows 11, CPU only). Fresh-venv check: P2/RUNLOG_38_P2.md.
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.16.3
+matplotlib==3.10.8
+pyarrow==22.0.0
+psutil==7.2.1
+requests==2.31.0
+pytest==9.0.3
+pywin32==312; sys_platform == "win32"   # E5 only: Windows Energy Meter (RAPL) counter via PDH
