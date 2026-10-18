@@ -1,6 +1,6 @@
 # llm-energy-certificates
 
-Artifact for the manuscript *Which Serving Knobs Can Back an Energy SLA? Worst-Case Certificates for LLM-as-a-Service and Their Price on Production Traces* (Dat Lam Quoc, FPT School of Business and Technology (FSB), FPT University; submitted to IEEE Transactions on Services Computing, 2026). It asks which serving knobs give a worst-case energy guarantee per request and per SLA window, and what that guarantee costs on production traces. Submission tag: `v1.0.0-tsc-submission`.
+Artifact for the manuscript *Worst-Case Energy Certificates for LLM-as-a-Service: Which Serving Knobs Back an Energy SLA, and at What Price on Production Traces* (Dat Lam Quoc, FPT School of Business and Technology (FSB), FPT University; submitted to IEEE Transactions on Services Computing, 2026). It asks which serving knobs give a worst-case energy guarantee per request and per SLA window, and what that guarantee costs on production traces. Submission tag: `v1.0.1-tsc-submission` (title change and Fig. 1(b) axis direction; `v1.0.0-tsc-submission` is kept unchanged, and `results/numbers.json` is identical at both tags).
 
 ## What the artifact shows
 

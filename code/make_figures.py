@@ -57,7 +57,6 @@ def fig1() -> None:
     ax[0].set_title("(a) Output-length CCDF"); ax[0].legend(frameon=False)
     ax[1].set_xlabel("truncated requests (%)"); ax[1].set_ylabel("certificate E_max (J)")
     ax[1].set_title("(b) Certificate price curve, Llama-3.1-8B")
-    ax[1].invert_xaxis()
     from matplotlib.lines import Line2D
     ax[1].legend(handles=[Line2D([], [], color="#444", ls="-", marker="o", ms=2.5, label="fixed output cap M = Q(ℓ)"),
                           Line2D([], [], color="#444", ls="--", label="prompt-aware budget M_T(p) (Thm 3)")],

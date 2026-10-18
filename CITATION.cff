@@ -1,18 +1,18 @@
 cff-version: 1.2.0
 message: "If you use this artifact, please cite the article below."
-title: "llm-energy-certificates: artifact for 'Which Serving Knobs Can Back an Energy SLA?'"
+title: "llm-energy-certificates: artifact for 'Worst-Case Energy Certificates for LLM-as-a-Service'"
 authors:
   - family-names: "Lam Quoc"
     given-names: "Dat"
     affiliation: "FPT School of Business and Technology (FSB), FPT University, Ho Chi Minh City, Vietnam"
     orcid: "https://orcid.org/0009-0004-5432-9343"
-version: "1.0.0-tsc-submission"
+version: "1.0.1-tsc-submission"
 date-released: "2026-10-18"
 license: MIT
 repository-code: "https://github.com/lamquocdat01/llm-energy-certificates"
 preferred-citation:
   type: article
-  title: "Which Serving Knobs Can Back an Energy SLA? Worst-Case Certificates for LLM-as-a-Service and Their Price on Production Traces"
+  title: "Worst-Case Energy Certificates for LLM-as-a-Service: Which Serving Knobs Back an Energy SLA, and at What Price on Production Traces"
   authors:
     - family-names: "Lam Quoc"
       given-names: "Dat"
