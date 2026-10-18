@@ -249,6 +249,7 @@ def analyze(args):
 def plot(win, rr, res):
     import matplotlib
     matplotlib.use("Agg")
+    matplotlib.rcParams["pdf.fonttype"] = 42          # P3: embedded TrueType, no Type 3 (C1)
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots(1, 2, figsize=(7.16, 2.6))
     for kind, mk, col in (("net", "o", "#1f5aa6"), ("gross", "s", "#9a9a9a")):
@@ -275,6 +276,10 @@ def plot(win, rr, res):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["run", "analyze"])
+    ap.add_argument("cmd", choices=["run", "analyze", "plot"])
     a = ap.parse_args()
-    {"run": run, "analyze": analyze}[a.cmd](a)
+    if a.cmd == "plot":                      # P3: redraw F5 from the saved results only (no re-analysis)
+        plot(pd.read_csv(RESULTS / "e5_laptop_windows.csv"), pd.read_csv(RESULTS / "e5_laptop_runs.csv"),
+             json.loads((RESULTS / "e5_laptop_fit.json").read_text(encoding="utf-8")))
+    else:
+        {"run": run, "analyze": analyze}[a.cmd](a)

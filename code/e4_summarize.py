@@ -73,6 +73,7 @@ def summarize() -> None:
 def plot(g: pd.DataFrame) -> None:
     import matplotlib
     matplotlib.use("Agg")
+    matplotlib.rcParams["pdf.fonttype"] = 42          # P3: embedded TrueType, no Type 3 (C1)
     import matplotlib.pyplot as plt
     m = g[g.regime.eq("meas") & g.a1f.eq(0.1) & g.trace.eq("azure2024_conv")]
     fig, ax = plt.subplots(1, 2, figsize=(7.16, 2.6))

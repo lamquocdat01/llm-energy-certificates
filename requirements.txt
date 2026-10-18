@@ -1,4 +1,4 @@
-# Topic 38 — tested with Python 3.11.9 (Windows 11, CPU only). Fresh-venv check: P2/RUNLOG_38_P2.md.
+# tested with Python 3.11.9 (Windows 11, CPU only) in a fresh venv; see README "Reproduce".
 numpy==1.26.4
 pandas==2.3.3
 scipy==1.16.3

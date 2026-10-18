@@ -28,7 +28,8 @@ MARKERS = ["o", "s", "^", "D"]
 COL1, COL2 = 3.5, 7.16
 plt.rcParams.update({"font.size": 7, "axes.labelsize": 8, "axes.titlesize": 8, "legend.fontsize": 6,
                      "axes.spines.top": False, "axes.spines.right": False, "axes.grid": True,
-                     "grid.color": "#e6e6e6", "grid.linewidth": 0.5, "lines.linewidth": 1.2})
+                     "grid.color": "#e6e6e6", "grid.linewidth": 0.5, "lines.linewidth": 1.2,
+                     "pdf.fonttype": 42, "ps.fonttype": 42})   # P3: embedded TrueType, no Type 3 (C1)
 
 
 def save(fig, name: str) -> None:
